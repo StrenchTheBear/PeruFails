@@ -14,5 +14,8 @@ namespace PeruFailsodels
         
         [Display(Name="URL de la imagen")]
          public string Url { get; set; }
+
+        [Display(Name="Enviar un comentario")]
+        public string Comentario { get; set; }
     }
 }
