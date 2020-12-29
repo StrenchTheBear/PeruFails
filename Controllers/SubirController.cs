@@ -23,8 +23,6 @@ namespace PeruFails.Controllers
             return View();
         }
 
-
-
         public IActionResult Subir()
         {
             return View();
