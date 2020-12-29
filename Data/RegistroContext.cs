@@ -5,7 +5,7 @@ namespace PeruFails.Data
 {
     public class RegistroContext : DbContext
     {
-        public DbSet<Registrarse> Registros { get; set; }
+        public DbSet<Subir> Subirs { get; set; }
 
         public RegistroContext(DbContextOptions dco) : base(dco) {
 

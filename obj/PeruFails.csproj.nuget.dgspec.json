@@ -42,7 +42,7 @@
             },
             "Microsoft.EntityFrameworkCore.inmemory": {
               "target": "Package",
-              "version": "[*, )"
+              "version": "[5.0.1, )"
             }
           },
           "imports": [
