@@ -10,16 +10,11 @@
     
     <tr>
         <th>Titulo</th>
+        <th>Usuario</th>
         <th>Url</th>
        
     </tr>
-  <div>
-       <div class="form-group">
-        <label asp-for="Comentario"></label>
-        <input asp-for="Comentario" class="form-control" required>
-    </div>
-       <button class="btn btn-primary">Enviar Comentario</button>
-  </div>
+
     @if (Model.Count == 0) {
             <tr>
                 <td colspan="4" class="text-center">No se encontraron registros.</td>
@@ -30,6 +25,7 @@
     {
         <tr>
             <td>@Subir.Titulo</td>
+            <td>@Login.Correo</td>
             <td>@Subir.Url</td> 
         </tr>
     }
