@@ -1,4 +1,5 @@
 ﻿@model List<Subir>
+    
 
 @{
     ViewData["Title"] = "Home Page";
@@ -14,27 +15,18 @@
         <th>Url</th>
        
     </tr>
-<<<<<<< HEAD
-=======
-
->>>>>>> a2babb5a45cc8332c8dc4cb041a7586c13bbcfd8
+    
     @if (Model.Count == 0) {
             <tr>
                 <td colspan="4" class="text-center">No se encontraron registros.</td>
             </tr>
         }
         
-    @foreach (var subir in Model)
+    @foreach (var Subir in Model)
     {
         <tr>
-<<<<<<< HEAD
-            <td>@subir.Titulo</td>
-            <td>@subir.Url</td> 
-=======
             <td>@Subir.Titulo</td>
-            <td>@Login.Correo</td>
             <td>@Subir.Url</td> 
->>>>>>> a2babb5a45cc8332c8dc4cb041a7586c13bbcfd8
         </tr>
     }
 </table>
